@@ -66,8 +66,8 @@ Final = 345mil
 
 Rules:
 
--   -   means subtract mil\
--   -   means add mil
+-   "+" means subtract mil
+-   "-" means add mil
 
 This matches Hell Let Loose SPA behavior
 
