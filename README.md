@@ -15,7 +15,7 @@ Simple SPA calculator for Hell Let Loose supporting:
 
 Double-click:
 
-HLL_Calculator.exe
+arty_calc.exe
 
 ------------------------------------------------------------------------
 
