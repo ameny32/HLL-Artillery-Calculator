@@ -24,7 +24,7 @@ Simple artillery calculator for Hell Let Loose supporting:
 
 Double‑click:
 
-HLL_Calculator.exe
+HLL_Artillery_Calculator.exe
 
 ------------------------------------------------------------------------
 
