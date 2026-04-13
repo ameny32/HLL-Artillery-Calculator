@@ -14,7 +14,8 @@ Simple SPA calculator for Hell Let Loose supporting:
 ## 1. Launch
 
 Double-click:
-    arty_calc.exe
+
+HLL_Calculator.exe
 
 ------------------------------------------------------------------------
 
@@ -30,8 +31,10 @@ Choose:
 ## 3. Select Weapon
 
 Click:
-    SPA
-    (Static artillery coming later)
+
+SPA
+
+(Static artillery coming later)
 
 ------------------------------------------------------------------------
 
@@ -45,8 +48,8 @@ You can enter:
 
 ### SPA adjustment format
 
-500+21
-500-15
+500+21\
+500-15\
 253+41
 
 ### How It Works
@@ -57,9 +60,14 @@ Example:
 
 Calculator does:
 
-500m = 366mil
-366mil - 21mil
+500m = 366mil\
+366mil - 21mil\
 Final = 345mil
+
+Rules:
+
+-   -   means subtract mil\
+-   -   means add mil
 
 This matches Hell Let Loose SPA behavior
 
@@ -95,9 +103,9 @@ If the result exceeds this, the calculator will warn you.
 
 ## Example Inputs
 
-500
-450+10
-300-25
+500\
+450+10\
+300-25\
 275+41
 
 ------------------------------------------------------------------------
