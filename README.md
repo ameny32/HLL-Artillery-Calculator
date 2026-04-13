@@ -132,7 +132,7 @@ Sturmpanzer IV
 
 Static Artillery:
 
-All factions
+Axis & Allies
 
 ------------------------------------------------------------------------
 
