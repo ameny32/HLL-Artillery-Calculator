@@ -1,11 +1,20 @@
-# Hell Let Loose SPA Calculator
+# Hell Let Loose Artillery Calculator
 
-Simple SPA calculator for Hell Let Loose supporting:
+Simple artillery calculator for Hell Let Loose supporting:
+
+## Supported Weapons
+
+### SPA
 
 -   Allies --- M4A3 (105mm)
 -   Axis --- Sturmpanzer IV
--   SPA adjustment format (253+41, 500-21, etc.)
--   Built-in mil limit validation (≤ 466 mil)
+-   Supports adjustment format (253+41, 500-21)
+
+### Static Artillery
+
+-   Allies & Axis
+-   Range: 100m --- 1600m
+-   Automatic mil conversion
 
 ------------------------------------------------------------------------
 
@@ -13,9 +22,9 @@ Simple SPA calculator for Hell Let Loose supporting:
 
 ## 1. Launch
 
-Double-click:
+Double‑click:
 
-HLL_Arty_Calculator.exe
+HLL_Calculator.exe
 
 ------------------------------------------------------------------------
 
@@ -30,35 +39,26 @@ Choose:
 
 ## 3. Select Weapon
 
-Click:
+Choose:
 
-SPA
-
-(Static artillery coming later)
+-   SPA
+-   Static Artillery
 
 ------------------------------------------------------------------------
 
-## 4. Enter Target Distance
+# SPA Usage
 
-You can enter:
+Enter:
 
-### Just meters
-
-500
-
-### SPA adjustment format
-
-500+21\
-500-15\
-253+41
-
-### How It Works
+253\
+253+41\
+500-21
 
 Example:
 
 500+21
 
-Calculator does:
+Calculator:
 
 500m = 366mil\
 366mil - 21mil\
@@ -66,64 +66,78 @@ Final = 345mil
 
 Rules:
 
--   "+" means subtract mil
--   "-" means add mil
+-   "+" subtracts mil
+-   "-" adds mil
 
-This matches Hell Let Loose SPA behavior
-
-------------------------------------------------------------------------
-
-## 5. Press Calculate
-
-You will see:
-
--   Final mil
--   Calculation breakdown
--   History saved below
-
-------------------------------------------------------------------------
-
-## Limits
-
-Maximum adjustable mil:
+Max adjustable mil:
 
 466 mil
 
-If the result exceeds this, the calculator will warn you.
+------------------------------------------------------------------------
+
+# Static Artillery Usage
+
+Enter meters only:
+
+100\
+550\
+1600
+
+Example:
+
+500
+
+Calculator:
+
+500m = 883mil
+
+Range:
+
+100m --- 1600m
 
 ------------------------------------------------------------------------
 
-## Tips
+# Features
 
--   Press Enter to calculate quickly
--   History keeps previous calculations
--   Use Clear to reset history
+-   Rounded mil values
+-   Simple UI
+-   History tracking
+-   Enter key support
+-   Clean layout
 
 ------------------------------------------------------------------------
 
-## Example Inputs
+# Example Inputs
 
-500\
+SPA: 500\
 450+10\
 300-25\
 275+41
 
+Static: 100\
+550\
+1600
+
 ------------------------------------------------------------------------
 
-## Supported Vehicles
+# Supported Vehicles
 
-### Allies
+SPA:
 
+Allies\
 M4A3 (105mm)
 
-### Axis
-
+Axis\
 Sturmpanzer IV
+
+Static Artillery:
+
+All factions
 
 ------------------------------------------------------------------------
 
-## Notes
+# Notes
 
--   Built for Hell Let Loose SPA gameplay
 -   Designed for fast in‑game use
--   Simple UI for quick calculations
+-   Clean minimal UI
+-   Accurate interpolation between values
